@@ -1,10 +1,13 @@
+
+[![Paper](https://img.shields.io/badge/Paper-FAB70C?logo=bookstack&logoColor=white)](https://doi.org/10.1038/s41597-025-04382-5)
+[![Website](https://img.shields.io/badge/Website-EF2D5E?logo=homepage&logoColor=white)](https://doi.org/10.1038/s41597-025-04382-5)
+[![DOI](https://img.shields.io/badge/Zenodo%20Datasets-4B8BBE?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.11101337)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11101337.svg)](https://doi.org/10.5281/zenodo.11101337)
  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Investigating the Quality of DermaMNIST and Fitzpatrick17k Dermatological Image Datasets
 
-This repository contains the code accompanying our paper titled "[Investigating the Quality of DermaMNIST and Fitzpatrick17k Dermatological Image Datasets](https://arxiv.org/abs/2401.14497)".
+This repository contains the code accompanying our paper titled "[Investigating the Quality of DermaMNIST and Fitzpatrick17k Dermatological Image Datasets](https://doi.org/10.1038/s41597-025-04382-5)", published in Nature Scientific Data.
 
 ## Repository Structure
 
@@ -35,7 +38,7 @@ Additional visualizations and links to the new datasets: DermaMNIST-C, DermaMNIS
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11101337.svg)](https://doi.org/10.5281/zenodo.11101337)
 
-The datasets released with this work: DermaMNIST-C, DermaMNIST-E, and Fitzpatrick17k-C are available on [Zenodo](https://doi.org/10.5281/zenodo.11101337).
+The datasets released with this work: DermaMNIST-C, DermaMNIST-E, and Fitzpatrick17k-C are available on [Zenodo](https://doi.org/10.5281/zenodo.11101337) and on [the project website](https://derm.cs.sfu.ca/critique/).
 
 ## License and Citation
 
@@ -43,29 +46,34 @@ The code in this repository is licensed under the [Apache License 2.0](LICENSE).
 
 <!-- The datasets released on [Zenodo](https://doi.org/10.5281/zenodo.11101337) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
-[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc] -->
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
 
 [cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
-[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg -->
 
 
-If you use our newly proposed datasets or our analyses, please cite [our paper](https://arxiv.org/abs/2401.14497) and [our Zenodo](https://doi.org/10.5281/zenodo.11101337) repository. The corresponding BibTeX entries are:
+If you use our newly proposed datasets or our analyses, please cite [our paper](https://doi.org/10.1038/s41597-025-04382-5) and [our Zenodo](https://doi.org/10.5281/zenodo.11101337) repository. The corresponding BibTeX entries are:
 
 ```
-@article{abhishek2024investigating,
+@article{abhishek2025investigating,
   title = {Investigating the Quality of {DermaMNIST} and {Fitzpatrick17k} Dermatological Image Datasets},
   author = {Abhishek, Kumar and Jain, Aditi and Hamarneh, Ghassan},
-  journal = {arXiv preprint arXiv:2401.14497},
-  doi = {10.48550/ARXIV.2401.14497},
-  url = {https://arxiv.org/abs/2401.14497},
-  year = {2024}
+  volume = {12},
+  number = {1},
+  pages = {196},
+  year = {2025},
+  month = {February},
+  issn = {2052-4463},
+  publisher = {Nature Publishing Group UK London}
+  doi = {10.1038/s41597-025-04382-5},
+  url = {https://www.nature.com/articles/s41597-025-04382-5},
 }
 
 @dataset{abhishek_2024_11101337,
   title = {{Investigating the Quality of {DermaMNIST} and {Fitzpatrick17k} Dermatological Image Datasets}},
-  month = May,
-  year = 2024,
+  month = {May},
+  year = {2024},
   author = {Abhishek, Kumar and Jain, Aditi and Hamarneh, Ghassan},
   language = {en},
   publisher = {Zenodo},
